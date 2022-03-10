@@ -1,95 +1,79 @@
 body {
-    background-image: url('../images/7.jpg');
-    background-size: cover;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                }
-    .left {
-        
-        padding:2px 2px;
-        display: inline-block;
-        color:white;
-        position:absolute;
-        left:34px;
-        top:20px;
-    }
-    .mid{
-        
-        padding:2px 2px;
-        color:white;
-        display:block;
-        margin:20px auto;
-        width:36%;
-    
-    
-        
-        
-        
-        
-        
-        
-        
-        
-    }
-    .right{
-        
-        padding:2px 2px;
-        display:inline-block;  
-        color:white;
-        position:absolute;
-        top:20px;
-        right:95px;
-        
-    
-    }
-    .navbar li {
-        list-style: none;
-        display: inline-block;
-    }
-    .navbar li a {
-        padding:11px;
-        font-weight:bold;
-        font-weight: 23px;
-    }
-    .navbar li a:hover{
-        text-decoration: underline;
-        cursor: pointer;
-    }
-    .left img{
-        width:90px;
-    }
-    .btn{
-        background-color:rgb(189, 179, 179);
-        margin:9px;
-        color:white;
-        font-weight: bold;
-        padding:5px 5px;
-        border:2px solid grey;
-        border-radius:10px;
-        width:75px;
-        cursor: pointer;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .btn:hover{
-        background-color: grey;
-    }
-    .container{
-        color: white;
-        border:2px solid whitesmoke;
-        padding :20px;
-        width:30%;
-        margin:auto;
-        margin-top: 150px;
-        border-radius:20px;
-        background-color:grey ;
-    
-    }
-    .gap{
-        padding:5px;
-        text-align: center;
-    }
-    h2{
-        text-align: center;
-    }   
-    .sub{
-        border-radius: 10px;
-    }
+  background-image: url("../images/7.jpg");
+  background-size: cover;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.left {
+  padding: 2px 2px;
+  display: inline-block;
+  color: white;
+  position: absolute;
+  left: 34px;
+  top: 20px;
+}
+.mid {
+  padding: 2px 2px;
+  color: white;
+  display: block;
+  margin: 20px auto;
+  width: 36%;
+}
+.right {
+  padding: 2px 2px;
+  display: inline-block;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 95px;
+}
+.navbar li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar li a {
+  padding: 11px;
+  font-weight: bold;
+  font-weight: 23px;
+}
+.navbar li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.left img {
+  width: 90px;
+}
+.btn {
+  background-color: rgb(189, 179, 179);
+  margin: 9px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 5px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  width: 75px;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.btn:hover {
+  background-color: grey;
+}
+.container {
+  color: white;
+  border: 2px solid whitesmoke;
+  padding: 20px;
+  width: 30%;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 20px;
+  background-color: grey;
+}
+.gap {
+  padding: 5px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.sub {
+  border-radius: 10px;
+}
